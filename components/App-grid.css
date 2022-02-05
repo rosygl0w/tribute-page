@@ -1,4 +1,4 @@
-.parent {
+.App-grid {
   display: grid;
   grid-template-columns: 5fr 1fr;
   grid-template-rows: 1fr 3fr 1fr;
@@ -6,15 +6,15 @@
   grid-row-gap: 10px;
 }
 
-.div1 {
-  grid-area: 1 / 1 / 2 / 2;
+.App-grid__header {
+  grid-area: 1 / 1 / 2 / 3;
 }
-.div2 {
+.App-grid__scrollarea {
   grid-area: 2 / 1 / 3 / 2;
 }
-.div3 {
-  grid-area: 3 / 1 / 4 / 2;
+.App-grid__footer {
+  grid-area: 3 / 1 / 4 / 3;
 }
-.div4 {
+.App-grid__aside {
   grid-area: 2 / 2 / 3 / 3;
 }

@@ -1,3 +1,19 @@
 .hidden {
   display: none !important;
 }
+
+.bg-blue {
+  background-color: steelblue;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.h-500 {
+  height: 500px;
+}
