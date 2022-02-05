@@ -1,4 +1,12 @@
 .Button {
-  background-color: hotpink;
-  color: white;
+  background-color: var(--color-gunmetal);
+  color: var(--color-red);
+  border: 4px outset var(--color-red);
+  border-radius: 40px 0px 40px 0px;
+  padding: 8px 12px;
+}
+
+.Button:hover {
+  background-color: var(--color-red);
+  color: var(--color-gunmetal);
 }
