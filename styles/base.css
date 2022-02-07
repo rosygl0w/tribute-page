@@ -3,7 +3,6 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-  background-repeat: no-repeat;
+  background-color: var(--color-gunmetal);
   font-family: sans-serif;
 }
