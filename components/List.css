@@ -1,0 +1,26 @@
+.List-Headline {
+  color: aliceblue;
+}
+
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+
+ol li {
+  counter-increment: steps;
+  color: white;
+  padding: 0.5rem;
+}
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background-color: #ff6f00;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
